@@ -1,7 +1,0 @@
-Running: xsim.dir/sine_taylor_shell_tb_behav/xsimk.exe -simmode gui -wdb sine_taylor_shell_tb_behav.wdb -simrunnum 0 -socket 51237
-Design successfully loaded
-Design Loading Memory Usage: 7284 KB (Peak: 7284 KB)
-Design Loading CPU Usage: 15 ms
-Simulation completed
-Simulation Memory Usage: 7940 KB (Peak: 7940 KB)
-Simulation CPU Usage: 15 ms

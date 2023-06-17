@@ -1,9 +1,0 @@
-0.6
-2019.2
-Nov  6 2019
-21:57:16
-C:/Vivado_project/JOB_projects/UART/UART.sim/sim_1/behav/xsim/glbl.v,1573089660,verilog,,,,glbl,,,,,,,,
-C:/Vivado_project/JOB_projects/rtl/UART/uart_rx.sv,1684501524,systemVerilog,,C:/Vivado_project/JOB_projects/rtl/UART/uart_tx.sv,,uart_rx,,,,,,,,
-C:/Vivado_project/JOB_projects/rtl/UART/uart_top.sv,1683460162,systemVerilog,,C:/Vivado_project/JOB_projects/rtl/UART/uart_rx.sv,,uart_top,,,,,,,,
-C:/Vivado_project/JOB_projects/rtl/UART/uart_tx.sv,1684501512,systemVerilog,,C:/Vivado_project/JOB_projects/tb/UART/uart_tb.sv,,uart_tx,,,,,,,,
-C:/Vivado_project/JOB_projects/tb/UART/uart_tb.sv,1683462777,systemVerilog,,,,uart_tb,,,,,,,,

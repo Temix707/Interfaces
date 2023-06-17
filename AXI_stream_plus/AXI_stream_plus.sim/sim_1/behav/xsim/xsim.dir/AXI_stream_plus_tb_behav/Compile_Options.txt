@@ -1,1 +1,0 @@
--wto "ee881d69a78f4bc6871f7425cd23a747" --incr --debug "typical" --relax --mt "2" -L "xil_defaultlib" -L "unisims_ver" -L "unimacro_ver" -L "secureip" --snapshot "AXI_stream_plus_tb_behav" "xil_defaultlib.AXI_stream_plus_tb" "xil_defaultlib.glbl" -log "elaborate.log" 
