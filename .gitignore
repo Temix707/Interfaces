@@ -94,11 +94,19 @@ node_modules/
 
 !src/
 !PR_Interfase/
+!FIFO/
 
-AXI_stream/
-AXI_stream_plus/
-FIFO_dds/
-FIFO_dp_ram/
-FIFO_sp_ram/
-Sine_Taylor/
-UART/
+#FIFO_dp_ram/
+#FIFO_sp_ram/
+
+
+#AXI_stream/
+#AXI_stream_plus/
+/FIFO_dds
+/FIFO_dp_ram
+/FIFO_sp_ram
+/AXI_stream
+/AXI_stream_plus
+/I2C_temp_sens
+/Sine_Taylor
+/UART
