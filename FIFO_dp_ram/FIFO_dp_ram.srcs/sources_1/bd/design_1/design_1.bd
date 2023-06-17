@@ -1,0 +1,60 @@
+{
+  "design": {
+    "design_info": {
+      "boundary_crc": "0x0",
+      "device": "xc7a100tcsg324-1",
+      "name": "design_1",
+      "synth_flow_mode": "Hierarchical",
+      "tool_version": "2019.2"
+    },
+    "design_tree": {
+      "fifo_dp_ram_0": ""
+    },
+    "components": {
+      "fifo_dp_ram_0": {
+        "vlnv": "xilinx.com:module_ref:fifo_dp_ram:1.0",
+        "xci_name": "design_1_fifo_dp_ram_0_0",
+        "reference_info": {
+          "ref_type": "hdl",
+          "ref_name": "fifo_dp_ram",
+          "boundary_crc": "0x0"
+        },
+        "ports": {
+          "clk_i": {
+            "direction": "I"
+          },
+          "srst_i": {
+            "direction": "I"
+          },
+          "rd_i": {
+            "direction": "I"
+          },
+          "wr_i": {
+            "direction": "I"
+          },
+          "data_i": {
+            "direction": "I",
+            "left": "31",
+            "right": "0"
+          },
+          "data_o": {
+            "direction": "O",
+            "left": "31",
+            "right": "0"
+          },
+          "fifo_cnt_o": {
+            "direction": "O",
+            "left": "2",
+            "right": "0"
+          },
+          "wr_full_o": {
+            "direction": "O"
+          },
+          "rd_empty_o": {
+            "direction": "O"
+          }
+        }
+      }
+    }
+  }
+}

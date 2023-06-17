@@ -1,0 +1,9 @@
+0.6
+2019.2
+Nov  6 2019
+21:57:16
+C:/Vivado_project/bipolar_three/bipolar_three.sim/sim_1/behav/xsim/glbl.v,1573089660,verilog,,,,glbl,,,,,,,,
+C:/Vivado_project/bipolar_three/bipolar_three.srcs/sim_1/new/bip_3l_tb.v,1664878980,verilog,,,,bip_3l_tb,,,,,,,,
+C:/Vivado_project/bipolar_three/bipolar_three.srcs/sim_1/new/decoder_3l_tb.v,1665242990,verilog,,,,decoder_3l_tb,,,,,,,,
+C:/Vivado_project/bipolar_three/bipolar_three.srcs/sources_1/new/decoder_3l.v,1665244953,verilog,,C:/Vivado_project/bipolar_three/bipolar_three.srcs/sim_1/new/decoder_3l_tb.v,,decoder_3l,,,,,,,,
+C:/Vivado_project/bipolar_three/bipolar_three.srcs/sources_1/new/top_bip_3l.v,1664878532,verilog,,C:/Vivado_project/bipolar_three/bipolar_three.srcs/sim_1/new/decoder_3l_tb.v,,top_bip_3l,,,,,,,,

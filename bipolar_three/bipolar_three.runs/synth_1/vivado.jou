@@ -1,0 +1,12 @@
+#-----------------------------------------------------------
+# Vivado v2019.2 (64-bit)
+# SW Build 2708876 on Wed Nov  6 21:40:23 MST 2019
+# IP Build 2700528 on Thu Nov  7 00:09:20 MST 2019
+# Start of session at: Sat Oct  8 18:57:36 2022
+# Process ID: 4716
+# Current directory: C:/Vivado_project/bipolar_three/bipolar_three.runs/synth_1
+# Command line: vivado.exe -log top_bip_3l.vds -product Vivado -mode batch -messageDb vivado.pb -notrace -source top_bip_3l.tcl
+# Log file: C:/Vivado_project/bipolar_three/bipolar_three.runs/synth_1/top_bip_3l.vds
+# Journal file: C:/Vivado_project/bipolar_three/bipolar_three.runs/synth_1\vivado.jou
+#-----------------------------------------------------------
+source top_bip_3l.tcl -notrace

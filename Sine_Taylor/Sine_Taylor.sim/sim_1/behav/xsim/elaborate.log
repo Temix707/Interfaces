@@ -1,0 +1,33 @@
+Vivado Simulator 2019.2
+Copyright 1986-1999, 2001-2019 Xilinx, Inc. All Rights Reserved.
+Running: C:/Xilinx/Vivado/2019.2/bin/unwrapped/win64.o/xelab.exe -wto b87e043cabd24f51a9d7226a864aeaaa --incr --debug typical --relax --mt 2 -L xil_defaultlib -L unisims_ver -L unimacro_ver -L secureip --snapshot sine_tb_behav xil_defaultlib.sine_tb xil_defaultlib.glbl -log elaborate.log 
+Using 2 slave threads.
+Starting static elaboration
+Pass Through NonSizing Optimizer
+Completed static elaboration
+Starting simulation data flow analysis
+WARNING: [XSIM 43-4099] "C:/Vivado_project/JOB_projects/rtl/Sine_Taylor/sine_taylor_shell.v" Line 1. Module sine_taylor_shell doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "C:/Vivado_project/JOB_projects/rtl/Sine_Taylor/sine_taylor.v" Line 1. Module sine_taylor doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "C:/Vivado_project/JOB_projects/rtl/Sine_Taylor/reg_vld.v" Line 1. Module reg_vld(w=12) doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "C:/Vivado_project/JOB_projects/rtl/Sine_Taylor/sine_d2p.v" Line 1. Module sine_d2p doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "C:/Vivado_project/JOB_projects/rtl/Sine_Taylor/sine_degree.v" Line 1. Module sine_degree(BITS_I=12,BITS_O=36) doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "C:/Vivado_project/JOB_projects/rtl/Sine_Taylor/sine_degree.v" Line 1. Module sine_degree(BITS_I=12,BITS_O=60) doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "C:/Vivado_project/JOB_projects/rtl/Sine_Taylor/sine_degree.v" Line 1. Module sine_degree(BITS_I=12,BITS_O=84) doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "C:/Vivado_project/JOB_projects/rtl/Sine_Taylor/sine_mul.v" Line 1. Module sine_mul doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "C:/Vivado_project/JOB_projects/rtl/Sine_Taylor/sine_mul.v" Line 1. Module sine_mul doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "C:/Vivado_project/JOB_projects/rtl/Sine_Taylor/sine_mul.v" Line 1. Module sine_mul doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "C:/Vivado_project/JOB_projects/rtl/Sine_Taylor/sine_p2d.v" Line 1. Module sine_p2d doesn't have a timescale but at least one module in design has a timescale.
+Completed simulation data flow analysis
+Time Resolution for simulation is 1ps
+Compiling module xil_defaultlib.reg_vld(w=12)
+Compiling module xil_defaultlib.sine_d2p
+Compiling module xil_defaultlib.sine_degree(BITS_I=12,BITS_O=36)
+Compiling module xil_defaultlib.sine_degree(BITS_I=12,BITS_O=60)
+Compiling module xil_defaultlib.sine_degree(BITS_I=12,BITS_O=84)
+Compiling module xil_defaultlib.sine_mul
+Compiling module xil_defaultlib.sine_p2d
+Compiling module xil_defaultlib.sine_taylor
+Compiling module xil_defaultlib.sine_taylor_shell
+Compiling module xil_defaultlib.sine_tb
+Compiling module xil_defaultlib.glbl
+Built simulation snapshot sine_tb_behav

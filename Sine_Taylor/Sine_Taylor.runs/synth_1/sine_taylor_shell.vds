@@ -1,0 +1,901 @@
+#-----------------------------------------------------------
+# Vivado v2019.2 (64-bit)
+# SW Build 2708876 on Wed Nov  6 21:40:23 MST 2019
+# IP Build 2700528 on Thu Nov  7 00:09:20 MST 2019
+# Start of session at: Mon Apr  3 15:18:00 2023
+# Process ID: 21452
+# Current directory: C:/Vivado_project/JOB_projects/Sine_Taylor/Sine_Taylor.runs/synth_1
+# Command line: vivado.exe -log sine_taylor_shell.vds -product Vivado -mode batch -messageDb vivado.pb -notrace -source sine_taylor_shell.tcl
+# Log file: C:/Vivado_project/JOB_projects/Sine_Taylor/Sine_Taylor.runs/synth_1/sine_taylor_shell.vds
+# Journal file: C:/Vivado_project/JOB_projects/Sine_Taylor/Sine_Taylor.runs/synth_1\vivado.jou
+#-----------------------------------------------------------
+source sine_taylor_shell.tcl -notrace
+Command: synth_design -top sine_taylor_shell -part xc7a100tcsg324-1
+Starting synth_design
+Attempting to get a license for feature 'Synthesis' and/or device 'xc7a100t'
+INFO: [Common 17-349] Got license for feature 'Synthesis' and/or device 'xc7a100t'
+INFO: [Device 21-403] Loading part xc7a100tcsg324-1
+INFO: Launching helper process for spawning children vivado processes
+INFO: Helper process launched with PID 13716 
+---------------------------------------------------------------------------------
+Starting RTL Elaboration : Time (s): cpu = 00:00:04 ; elapsed = 00:00:04 . Memory (MB): peak = 785.773 ; gain = 234.621
+---------------------------------------------------------------------------------
+INFO: [Synth 8-6157] synthesizing module 'sine_taylor_shell' [C:/Vivado_project/JOB_projects/rtl/Sine_Taylor/sine_taylor_shell.v:1]
+	Parameter INT_BITS_I bound to: 12 - type: integer 
+	Parameter INT_BITS_O bound to: 16 - type: integer 
+INFO: [Synth 8-6157] synthesizing module 'sine_taylor' [C:/Vivado_project/JOB_projects/rtl/Sine_Taylor/sine_taylor.v:1]
+	Parameter INT_BITS_I bound to: 12 - type: integer 
+	Parameter FRAC_BITS bound to: 100 - type: integer 
+	Parameter INT_BITS_O bound to: 16 - type: integer 
+INFO: [Synth 8-6157] synthesizing module 'reg_vld' [C:/Vivado_project/JOB_projects/rtl/Sine_Taylor/reg_vld.v:1]
+	Parameter w bound to: 12 - type: integer 
+INFO: [Synth 8-6155] done synthesizing module 'reg_vld' (1#1) [C:/Vivado_project/JOB_projects/rtl/Sine_Taylor/reg_vld.v:1]
+INFO: [Synth 8-6157] synthesizing module 'sine_d2p' [C:/Vivado_project/JOB_projects/rtl/Sine_Taylor/sine_d2p.v:1]
+	Parameter WIDTH bound to: 12 - type: integer 
+INFO: [Synth 8-6155] done synthesizing module 'sine_d2p' (2#1) [C:/Vivado_project/JOB_projects/rtl/Sine_Taylor/sine_d2p.v:1]
+INFO: [Synth 8-6157] synthesizing module 'sine_degree' [C:/Vivado_project/JOB_projects/rtl/Sine_Taylor/sine_degree.v:1]
+	Parameter BITS_I bound to: 12 - type: integer 
+	Parameter BITS_O bound to: 36 - type: integer 
+	Parameter NUM bound to: 3 - type: integer 
+INFO: [Synth 8-6155] done synthesizing module 'sine_degree' (3#1) [C:/Vivado_project/JOB_projects/rtl/Sine_Taylor/sine_degree.v:1]
+INFO: [Synth 8-6157] synthesizing module 'sine_degree__parameterized0' [C:/Vivado_project/JOB_projects/rtl/Sine_Taylor/sine_degree.v:1]
+	Parameter BITS_I bound to: 12 - type: integer 
+	Parameter BITS_O bound to: 60 - type: integer 
+	Parameter NUM bound to: 5 - type: integer 
+INFO: [Synth 8-6155] done synthesizing module 'sine_degree__parameterized0' (3#1) [C:/Vivado_project/JOB_projects/rtl/Sine_Taylor/sine_degree.v:1]
+INFO: [Synth 8-6157] synthesizing module 'sine_degree__parameterized1' [C:/Vivado_project/JOB_projects/rtl/Sine_Taylor/sine_degree.v:1]
+	Parameter BITS_I bound to: 12 - type: integer 
+	Parameter BITS_O bound to: 84 - type: integer 
+	Parameter NUM bound to: 7 - type: integer 
+INFO: [Synth 8-6155] done synthesizing module 'sine_degree__parameterized1' (3#1) [C:/Vivado_project/JOB_projects/rtl/Sine_Taylor/sine_degree.v:1]
+INFO: [Synth 8-6157] synthesizing module 'sine_mul' [C:/Vivado_project/JOB_projects/rtl/Sine_Taylor/sine_mul.v:1]
+INFO: [Synth 8-6155] done synthesizing module 'sine_mul' (4#1) [C:/Vivado_project/JOB_projects/rtl/Sine_Taylor/sine_mul.v:1]
+INFO: [Synth 8-6157] synthesizing module 'sine_p2d' [C:/Vivado_project/JOB_projects/rtl/Sine_Taylor/sine_p2d.v:1]
+	Parameter WIDTH bound to: 16 - type: integer 
+INFO: [Synth 8-6155] done synthesizing module 'sine_p2d' (5#1) [C:/Vivado_project/JOB_projects/rtl/Sine_Taylor/sine_p2d.v:1]
+WARNING: [Synth 8-3936] Found unconnected internal register 'r_res_reg' and it is trimmed from '168' to '116' bits. [C:/Vivado_project/JOB_projects/rtl/Sine_Taylor/sine_taylor.v:90]
+INFO: [Synth 8-6155] done synthesizing module 'sine_taylor' (6#1) [C:/Vivado_project/JOB_projects/rtl/Sine_Taylor/sine_taylor.v:1]
+INFO: [Synth 8-6155] done synthesizing module 'sine_taylor_shell' (7#1) [C:/Vivado_project/JOB_projects/rtl/Sine_Taylor/sine_taylor_shell.v:1]
+---------------------------------------------------------------------------------
+Finished RTL Elaboration : Time (s): cpu = 00:00:05 ; elapsed = 00:00:06 . Memory (MB): peak = 859.086 ; gain = 307.934
+---------------------------------------------------------------------------------
+
+Report Check Netlist: 
++------+------------------+-------+---------+-------+------------------+
+|      |Item              |Errors |Warnings |Status |Description       |
++------+------------------+-------+---------+-------+------------------+
+|1     |multi_driven_nets |      0|        0|Passed |Multi driven nets |
++------+------------------+-------+---------+-------+------------------+
+---------------------------------------------------------------------------------
+Start Handling Custom Attributes
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Handling Custom Attributes : Time (s): cpu = 00:00:05 ; elapsed = 00:00:06 . Memory (MB): peak = 859.086 ; gain = 307.934
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished RTL Optimization Phase 1 : Time (s): cpu = 00:00:05 ; elapsed = 00:00:06 . Memory (MB): peak = 859.086 ; gain = 307.934
+---------------------------------------------------------------------------------
+Netlist sorting complete. Time (s): cpu = 00:00:01 ; elapsed = 00:00:00.037 . Memory (MB): peak = 859.086 ; gain = 0.000
+INFO: [Project 1-570] Preparing netlist for logic optimization
+
+Processing XDC Constraints
+Initializing timing engine
+Parsing XDC File [C:/Vivado_project/JOB_projects/xdc/Sine_Taylor/constr.xdc]
+Finished Parsing XDC File [C:/Vivado_project/JOB_projects/xdc/Sine_Taylor/constr.xdc]
+INFO: [Project 1-236] Implementation specific constraints were found while reading constraint file [C:/Vivado_project/JOB_projects/xdc/Sine_Taylor/constr.xdc]. These constraints will be ignored for synthesis but will be used in implementation. Impacted constraints are listed in the file [.Xil/sine_taylor_shell_propImpl.xdc].
+Resolution: To avoid this warning, move constraints listed in [.Xil/sine_taylor_shell_propImpl.xdc] to another XDC file and exclude this new file from synthesis with the used_in_synthesis property (File Properties dialog in GUI) and re-run elaboration/synthesis.
+Completed Processing XDC Constraints
+
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.001 . Memory (MB): peak = 960.652 ; gain = 0.000
+INFO: [Project 1-111] Unisim Transformation Summary:
+No Unisim elements were transformed.
+
+Constraint Validation Runtime : Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.021 . Memory (MB): peak = 960.652 ; gain = 0.000
+---------------------------------------------------------------------------------
+Finished Constraint Validation : Time (s): cpu = 00:00:11 ; elapsed = 00:00:13 . Memory (MB): peak = 960.652 ; gain = 409.500
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Loading Part and Timing Information
+---------------------------------------------------------------------------------
+Loading part: xc7a100tcsg324-1
+---------------------------------------------------------------------------------
+Finished Loading Part and Timing Information : Time (s): cpu = 00:00:11 ; elapsed = 00:00:13 . Memory (MB): peak = 960.652 ; gain = 409.500
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Applying 'set_property' XDC Constraints
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished applying 'set_property' XDC Constraints : Time (s): cpu = 00:00:11 ; elapsed = 00:00:13 . Memory (MB): peak = 960.652 ; gain = 409.500
+---------------------------------------------------------------------------------
+WARNING: [Synth 8-3936] Found unconnected internal register 'SE_x_o_reg' and it is trimmed from '168' to '116' bits. [C:/Vivado_project/JOB_projects/rtl/Sine_Taylor/sine_taylor.v:57]
+---------------------------------------------------------------------------------
+Finished RTL Optimization Phase 2 : Time (s): cpu = 00:00:12 ; elapsed = 00:00:13 . Memory (MB): peak = 960.652 ; gain = 409.500
+---------------------------------------------------------------------------------
+
+Report RTL Partitions: 
++-+--------------+------------+----------+
+| |RTL Partition |Replication |Instances |
++-+--------------+------------+----------+
++-+--------------+------------+----------+
+---------------------------------------------------------------------------------
+Start RTL Component Statistics 
+---------------------------------------------------------------------------------
+Detailed RTL Component Info : 
++---Adders : 
+	   5 Input    116 Bit       Adders := 1     
+	   2 Input     16 Bit       Adders := 1     
+	   2 Input     12 Bit       Adders := 1     
++---Registers : 
+	              168 Bit    Registers := 3     
+	              116 Bit    Registers := 2     
+	               84 Bit    Registers := 5     
+	               72 Bit    Registers := 1     
+	               60 Bit    Registers := 3     
+	               48 Bit    Registers := 2     
+	               36 Bit    Registers := 1     
+	               16 Bit    Registers := 2     
+	               12 Bit    Registers := 3     
+	                1 Bit    Registers := 1     
++---Multipliers : 
+	                84x84  Multipliers := 3     
+	                12x72  Multipliers := 1     
+	                12x60  Multipliers := 1     
+	                12x48  Multipliers := 2     
+	                12x36  Multipliers := 2     
++---Muxes : 
+	   2 Input     16 Bit        Muxes := 1     
+	   2 Input     12 Bit        Muxes := 1     
+---------------------------------------------------------------------------------
+Finished RTL Component Statistics 
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start RTL Hierarchical Component Statistics 
+---------------------------------------------------------------------------------
+Hierarchical RTL Component report 
+Module sine_taylor_shell 
+Detailed RTL Component Info : 
++---Registers : 
+	               16 Bit    Registers := 1     
+	               12 Bit    Registers := 1     
+	                1 Bit    Registers := 1     
+Module reg_vld 
+Detailed RTL Component Info : 
++---Registers : 
+	               12 Bit    Registers := 1     
+Module sine_d2p 
+Detailed RTL Component Info : 
++---Adders : 
+	   2 Input     12 Bit       Adders := 1     
++---Registers : 
+	               12 Bit    Registers := 1     
++---Muxes : 
+	   2 Input     12 Bit        Muxes := 1     
+Module sine_degree 
+Detailed RTL Component Info : 
++---Registers : 
+	               36 Bit    Registers := 1     
+Module sine_degree__parameterized0 
+Detailed RTL Component Info : 
++---Registers : 
+	               60 Bit    Registers := 2     
+	               48 Bit    Registers := 1     
++---Multipliers : 
+	                12x48  Multipliers := 1     
+	                12x36  Multipliers := 1     
+Module sine_degree__parameterized1 
+Detailed RTL Component Info : 
++---Registers : 
+	               84 Bit    Registers := 2     
+	               72 Bit    Registers := 1     
+	               60 Bit    Registers := 1     
+	               48 Bit    Registers := 1     
++---Multipliers : 
+	                12x72  Multipliers := 1     
+	                12x60  Multipliers := 1     
+	                12x48  Multipliers := 1     
+	                12x36  Multipliers := 1     
+Module sine_mul 
+Detailed RTL Component Info : 
++---Registers : 
+	              168 Bit    Registers := 1     
++---Multipliers : 
+	                84x84  Multipliers := 1     
+Module sine_p2d 
+Detailed RTL Component Info : 
++---Adders : 
+	   2 Input     16 Bit       Adders := 1     
++---Registers : 
+	               16 Bit    Registers := 1     
++---Muxes : 
+	   2 Input     16 Bit        Muxes := 1     
+Module sine_taylor 
+Detailed RTL Component Info : 
++---Adders : 
+	   5 Input    116 Bit       Adders := 1     
++---Registers : 
+	              116 Bit    Registers := 2     
+	               84 Bit    Registers := 3     
+---------------------------------------------------------------------------------
+Finished RTL Hierarchical Component Statistics
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Part Resource Summary
+---------------------------------------------------------------------------------
+Part Resources:
+DSPs: 240 (col length:80)
+BRAMs: 270 (col length: RAMB18 80 RAMB36 40)
+---------------------------------------------------------------------------------
+Finished Part Resource Summary
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Cross Boundary and Area Optimization
+---------------------------------------------------------------------------------
+Warning: Parallel synthesis criteria is not met 
+INFO: [Synth 8-4471] merging register 'deg_5/x_d_m_2_reg[23:0]' into 'deg_3/x_d_m_2_reg[23:0]' [C:/Vivado_project/JOB_projects/rtl/Sine_Taylor/sine_degree.v:32]
+INFO: [Synth 8-4471] merging register 'deg_7/x_d_m_2_reg[23:0]' into 'deg_3/x_d_m_2_reg[23:0]' [C:/Vivado_project/JOB_projects/rtl/Sine_Taylor/sine_degree.v:39]
+INFO: [Synth 8-4471] merging register 'deg_5/x_d_m_3_reg[35:0]' into 'deg_3/x_d_m_3_reg[35:0]' [C:/Vivado_project/JOB_projects/rtl/Sine_Taylor/sine_degree.v:33]
+INFO: [Synth 8-4471] merging register 'deg_7/x_d_m_3_reg[35:0]' into 'deg_3/x_d_m_3_reg[35:0]' [C:/Vivado_project/JOB_projects/rtl/Sine_Taylor/sine_degree.v:40]
+INFO: [Synth 8-4471] merging register 'deg_7/x_d_m_4_reg[47:0]' into 'deg_5/x_d_m_4_reg[47:0]' [C:/Vivado_project/JOB_projects/rtl/Sine_Taylor/sine_degree.v:41]
+INFO: [Synth 8-4471] merging register 'deg_7/x_d_m_5_reg[59:0]' into 'deg_5/x_d_m_5_reg[59:0]' [C:/Vivado_project/JOB_projects/rtl/Sine_Taylor/sine_degree.v:42]
+INFO: [Synth 8-5845] Not enough pipeline registers after wide multiplier. Recommended levels of pipeline registers is 2 [C:/Vivado_project/JOB_projects/rtl/Sine_Taylor/sine_degree.v:34]
+INFO: [Synth 8-5845] Not enough pipeline registers after wide multiplier. Recommended levels of pipeline registers is 3 [C:/Vivado_project/JOB_projects/rtl/Sine_Taylor/sine_degree.v:35]
+INFO: [Synth 8-5845] Not enough pipeline registers after wide multiplier. Recommended levels of pipeline registers is 4 [C:/Vivado_project/JOB_projects/rtl/Sine_Taylor/sine_degree.v:43]
+INFO: [Synth 8-5845] Not enough pipeline registers after wide multiplier. Recommended levels of pipeline registers is 4 [C:/Vivado_project/JOB_projects/rtl/Sine_Taylor/sine_degree.v:44]
+WARNING: [Synth 8-6014] Unused sequential element deg_5/x_d_m_4_reg was removed.  [C:/Vivado_project/JOB_projects/rtl/Sine_Taylor/sine_degree.v:34]
+WARNING: [Synth 8-3936] Found unconnected internal register 'mul_const3/q_mul_reg' and it is trimmed from '168' to '116' bits. [C:/Vivado_project/JOB_projects/rtl/Sine_Taylor/sine_mul.v:12]
+WARNING: [Synth 8-3936] Found unconnected internal register 'mul_const2/q_mul_reg' and it is trimmed from '168' to '116' bits. [C:/Vivado_project/JOB_projects/rtl/Sine_Taylor/sine_mul.v:12]
+WARNING: [Synth 8-3936] Found unconnected internal register 'mul_const1/q_mul_reg' and it is trimmed from '168' to '116' bits. [C:/Vivado_project/JOB_projects/rtl/Sine_Taylor/sine_mul.v:12]
+INFO: [Synth 8-5845] Not enough pipeline registers after wide multiplier. Recommended levels of pipeline registers is 15 [C:/Vivado_project/JOB_projects/rtl/Sine_Taylor/sine_mul.v:12]
+INFO: [Synth 8-5845] Not enough pipeline registers after wide multiplier. Recommended levels of pipeline registers is 15 [C:/Vivado_project/JOB_projects/rtl/Sine_Taylor/sine_mul.v:12]
+DSP Report: Generating DSP deg_3/x_d_m_2_reg, operation Mode is: (A2*B2)'.
+DSP Report: register d2p1/x_o_reg is absorbed into DSP deg_3/x_d_m_2_reg.
+DSP Report: register d2p1/x_o_reg is absorbed into DSP deg_3/x_d_m_2_reg.
+DSP Report: register deg_3/x_d_m_2_reg is absorbed into DSP deg_3/x_d_m_2_reg.
+DSP Report: operator deg_3/x_d_m_20 is absorbed into DSP deg_3/x_d_m_2_reg.
+DSP Report: Generating DSP deg_3/x_d_m_3_reg, operation Mode is: (A*B2)'.
+DSP Report: register d2p1/x_o_reg is absorbed into DSP deg_3/x_d_m_3_reg.
+DSP Report: register deg_3/x_d_m_3_reg is absorbed into DSP deg_3/x_d_m_3_reg.
+DSP Report: operator deg_3/x_d_m_30 is absorbed into DSP deg_3/x_d_m_3_reg.
+DSP Report: Generating DSP mul_const1/q_mul0, operation Mode is: A*B''.
+DSP Report: register mul_const1/q_mul0 is absorbed into DSP mul_const1/q_mul0.
+DSP Report: register mul_const1/q_mul0 is absorbed into DSP mul_const1/q_mul0.
+DSP Report: operator mul_const1/q_mul0 is absorbed into DSP mul_const1/q_mul0.
+DSP Report: operator mul_const1/q_mul0 is absorbed into DSP mul_const1/q_mul0.
+DSP Report: Generating DSP mul_const1/q_mul0, operation Mode is: PCIN+A*B2.
+DSP Report: register mul_const1/q_mul0 is absorbed into DSP mul_const1/q_mul0.
+DSP Report: operator mul_const1/q_mul0 is absorbed into DSP mul_const1/q_mul0.
+DSP Report: operator mul_const1/q_mul0 is absorbed into DSP mul_const1/q_mul0.
+DSP Report: Generating DSP mul_const1/q_mul_reg, operation Mode is: (PCIN>>17)+A*B2.
+DSP Report: register mul_const1/q_mul_reg is absorbed into DSP mul_const1/q_mul_reg.
+DSP Report: register mul_const1/q_mul_reg is absorbed into DSP mul_const1/q_mul_reg.
+DSP Report: operator mul_const1/q_mul0 is absorbed into DSP mul_const1/q_mul_reg.
+DSP Report: operator mul_const1/q_mul0 is absorbed into DSP mul_const1/q_mul_reg.
+DSP Report: Generating DSP mul_const1/q_mul0, operation Mode is: A''*(B:0x0).
+DSP Report: register mul_const1/q_mul0 is absorbed into DSP mul_const1/q_mul0.
+DSP Report: register mul_const1/q_mul0 is absorbed into DSP mul_const1/q_mul0.
+DSP Report: operator mul_const1/q_mul0 is absorbed into DSP mul_const1/q_mul0.
+DSP Report: operator mul_const1/q_mul0 is absorbed into DSP mul_const1/q_mul0.
+DSP Report: Generating DSP mul_const1/q_mul0, operation Mode is: (PCIN>>17)+A*B''.
+DSP Report: register mul_const1/q_mul0 is absorbed into DSP mul_const1/q_mul0.
+DSP Report: register mul_const1/q_mul0 is absorbed into DSP mul_const1/q_mul0.
+DSP Report: operator mul_const1/q_mul0 is absorbed into DSP mul_const1/q_mul0.
+DSP Report: operator mul_const1/q_mul0 is absorbed into DSP mul_const1/q_mul0.
+DSP Report: Generating DSP mul_const1/q_mul0, operation Mode is: PCIN+A''*B.
+DSP Report: register mul_const1/q_mul0 is absorbed into DSP mul_const1/q_mul0.
+DSP Report: register mul_const1/q_mul0 is absorbed into DSP mul_const1/q_mul0.
+DSP Report: operator mul_const1/q_mul0 is absorbed into DSP mul_const1/q_mul0.
+DSP Report: operator mul_const1/q_mul0 is absorbed into DSP mul_const1/q_mul0.
+DSP Report: Generating DSP mul_const1/q_mul0, operation Mode is: A''*B.
+DSP Report: register mul_const1/q_mul0 is absorbed into DSP mul_const1/q_mul0.
+DSP Report: register mul_const1/q_mul0 is absorbed into DSP mul_const1/q_mul0.
+DSP Report: operator mul_const1/q_mul0 is absorbed into DSP mul_const1/q_mul0.
+DSP Report: operator mul_const1/q_mul0 is absorbed into DSP mul_const1/q_mul0.
+DSP Report: Generating DSP mul_const1/q_mul0, operation Mode is: PCIN+A''*(B:0x0).
+DSP Report: register mul_const1/q_mul0 is absorbed into DSP mul_const1/q_mul0.
+DSP Report: register mul_const1/q_mul0 is absorbed into DSP mul_const1/q_mul0.
+DSP Report: operator mul_const1/q_mul0 is absorbed into DSP mul_const1/q_mul0.
+DSP Report: operator mul_const1/q_mul0 is absorbed into DSP mul_const1/q_mul0.
+DSP Report: Generating DSP mul_const1/q_mul0, operation Mode is: (PCIN>>17)+A*B''.
+DSP Report: register mul_const1/q_mul0 is absorbed into DSP mul_const1/q_mul0.
+DSP Report: register mul_const1/q_mul0 is absorbed into DSP mul_const1/q_mul0.
+DSP Report: operator mul_const1/q_mul0 is absorbed into DSP mul_const1/q_mul0.
+DSP Report: operator mul_const1/q_mul0 is absorbed into DSP mul_const1/q_mul0.
+DSP Report: Generating DSP mul_const1/q_mul_reg, operation Mode is: (PCIN+A''*B)'.
+DSP Report: register mul_const1/q_mul_reg is absorbed into DSP mul_const1/q_mul_reg.
+DSP Report: register mul_const1/q_mul_reg is absorbed into DSP mul_const1/q_mul_reg.
+DSP Report: register mul_const1/q_mul_reg is absorbed into DSP mul_const1/q_mul_reg.
+DSP Report: operator mul_const1/q_mul0 is absorbed into DSP mul_const1/q_mul_reg.
+DSP Report: operator mul_const1/q_mul0 is absorbed into DSP mul_const1/q_mul_reg.
+DSP Report: Generating DSP mul_const1/q_mul0, operation Mode is: A2*(B:0x0).
+DSP Report: register mul_const1/q_mul0 is absorbed into DSP mul_const1/q_mul0.
+DSP Report: operator mul_const1/q_mul0 is absorbed into DSP mul_const1/q_mul0.
+DSP Report: operator mul_const1/q_mul0 is absorbed into DSP mul_const1/q_mul0.
+DSP Report: Generating DSP mul_const1/q_mul0, operation Mode is: (PCIN>>17)+A2*B.
+DSP Report: register mul_const1/q_mul0 is absorbed into DSP mul_const1/q_mul0.
+DSP Report: operator mul_const1/q_mul0 is absorbed into DSP mul_const1/q_mul0.
+DSP Report: operator mul_const1/q_mul0 is absorbed into DSP mul_const1/q_mul0.
+DSP Report: Generating DSP mul_const1/q_mul0, operation Mode is: PCIN+A''*(B:0x0).
+DSP Report: register mul_const1/q_mul0 is absorbed into DSP mul_const1/q_mul0.
+DSP Report: register mul_const1/q_mul0 is absorbed into DSP mul_const1/q_mul0.
+DSP Report: operator mul_const1/q_mul0 is absorbed into DSP mul_const1/q_mul0.
+DSP Report: operator mul_const1/q_mul0 is absorbed into DSP mul_const1/q_mul0.
+DSP Report: Generating DSP mul_const1/q_mul_reg, operation Mode is: (PCIN>>17)+A*B2.
+DSP Report: register mul_const1/q_mul_reg is absorbed into DSP mul_const1/q_mul_reg.
+DSP Report: register mul_const1/q_mul_reg is absorbed into DSP mul_const1/q_mul_reg.
+DSP Report: operator mul_const1/q_mul0 is absorbed into DSP mul_const1/q_mul_reg.
+DSP Report: operator mul_const1/q_mul0 is absorbed into DSP mul_const1/q_mul_reg.
+DSP Report: Generating DSP deg_5/x_d_m_40, operation Mode is: A*B2.
+DSP Report: register deg_5/x_d_m_40 is absorbed into DSP deg_5/x_d_m_40.
+DSP Report: operator deg_5/x_d_m_40 is absorbed into DSP deg_5/x_d_m_40.
+DSP Report: operator deg_5/x_d_m_40 is absorbed into DSP deg_5/x_d_m_40.
+DSP Report: Generating DSP deg_5/x_d_m_4_reg, operation Mode is: (PCIN>>17)+A*B2.
+DSP Report: register deg_5/x_d_m_4_reg is absorbed into DSP deg_5/x_d_m_4_reg.
+DSP Report: register deg_5/x_d_m_4_reg is absorbed into DSP deg_5/x_d_m_4_reg.
+DSP Report: operator deg_5/x_d_m_40 is absorbed into DSP deg_5/x_d_m_4_reg.
+DSP Report: operator deg_5/x_d_m_40 is absorbed into DSP deg_5/x_d_m_4_reg.
+DSP Report: Generating DSP deg_5/x_d_m_5_reg, operation Mode is: (A*B2)'.
+DSP Report: register deg_5/x_d_m_5_reg is absorbed into DSP deg_5/x_d_m_5_reg.
+DSP Report: register deg_5/x_d_m_5_reg is absorbed into DSP deg_5/x_d_m_5_reg.
+DSP Report: operator deg_5/x_d_m_50 is absorbed into DSP deg_5/x_d_m_5_reg.
+DSP Report: operator deg_5/x_d_m_50 is absorbed into DSP deg_5/x_d_m_5_reg.
+DSP Report: Generating DSP deg_5/x_d_m_50, operation Mode is: A2*B2.
+DSP Report: register deg_5/x_d_m_50 is absorbed into DSP deg_5/x_d_m_50.
+DSP Report: register deg_5/x_d_m_50 is absorbed into DSP deg_5/x_d_m_50.
+DSP Report: operator deg_5/x_d_m_50 is absorbed into DSP deg_5/x_d_m_50.
+DSP Report: operator deg_5/x_d_m_50 is absorbed into DSP deg_5/x_d_m_50.
+DSP Report: Generating DSP deg_5/x_d_m_5_reg, operation Mode is: (PCIN>>17)+A*B2.
+DSP Report: register deg_5/x_d_m_5_reg is absorbed into DSP deg_5/x_d_m_5_reg.
+DSP Report: register deg_5/x_d_m_5_reg is absorbed into DSP deg_5/x_d_m_5_reg.
+DSP Report: operator deg_5/x_d_m_50 is absorbed into DSP deg_5/x_d_m_5_reg.
+DSP Report: operator deg_5/x_d_m_50 is absorbed into DSP deg_5/x_d_m_5_reg.
+DSP Report: Generating DSP mul_const2/q_mul0, operation Mode is: A''*B.
+DSP Report: register mul_const2/q_mul0 is absorbed into DSP mul_const2/q_mul0.
+DSP Report: register mul_const2/q_mul0 is absorbed into DSP mul_const2/q_mul0.
+DSP Report: operator mul_const2/q_mul0 is absorbed into DSP mul_const2/q_mul0.
+DSP Report: operator mul_const2/q_mul0 is absorbed into DSP mul_const2/q_mul0.
+DSP Report: Generating DSP mul_const2/q_mul0, operation Mode is: PCIN+A*B''.
+DSP Report: register mul_const2/q_mul0 is absorbed into DSP mul_const2/q_mul0.
+DSP Report: register mul_const2/q_mul0 is absorbed into DSP mul_const2/q_mul0.
+DSP Report: operator mul_const2/q_mul0 is absorbed into DSP mul_const2/q_mul0.
+DSP Report: operator mul_const2/q_mul0 is absorbed into DSP mul_const2/q_mul0.
+DSP Report: Generating DSP mul_const2/q_mul_reg, operation Mode is: (PCIN>>17)+A''*B.
+DSP Report: register mul_const2/q_mul_reg is absorbed into DSP mul_const2/q_mul_reg.
+DSP Report: register mul_const2/q_mul_reg is absorbed into DSP mul_const2/q_mul_reg.
+DSP Report: register mul_const2/q_mul_reg is absorbed into DSP mul_const2/q_mul_reg.
+DSP Report: operator mul_const2/q_mul0 is absorbed into DSP mul_const2/q_mul_reg.
+DSP Report: operator mul_const2/q_mul0 is absorbed into DSP mul_const2/q_mul_reg.
+DSP Report: Generating DSP mul_const2/q_mul0, operation Mode is: A''*(B:0x0).
+DSP Report: register mul_const2/q_mul0 is absorbed into DSP mul_const2/q_mul0.
+DSP Report: register mul_const2/q_mul0 is absorbed into DSP mul_const2/q_mul0.
+DSP Report: operator mul_const2/q_mul0 is absorbed into DSP mul_const2/q_mul0.
+DSP Report: operator mul_const2/q_mul0 is absorbed into DSP mul_const2/q_mul0.
+DSP Report: Generating DSP mul_const2/q_mul0, operation Mode is: (PCIN>>17)+A''*B.
+DSP Report: register mul_const2/q_mul0 is absorbed into DSP mul_const2/q_mul0.
+DSP Report: register mul_const2/q_mul0 is absorbed into DSP mul_const2/q_mul0.
+DSP Report: operator mul_const2/q_mul0 is absorbed into DSP mul_const2/q_mul0.
+DSP Report: operator mul_const2/q_mul0 is absorbed into DSP mul_const2/q_mul0.
+DSP Report: Generating DSP mul_const2/q_mul0, operation Mode is: PCIN+A''*B.
+DSP Report: register mul_const2/q_mul0 is absorbed into DSP mul_const2/q_mul0.
+DSP Report: register mul_const2/q_mul0 is absorbed into DSP mul_const2/q_mul0.
+DSP Report: operator mul_const2/q_mul0 is absorbed into DSP mul_const2/q_mul0.
+DSP Report: operator mul_const2/q_mul0 is absorbed into DSP mul_const2/q_mul0.
+DSP Report: Generating DSP mul_const2/q_mul0, operation Mode is: A''*B.
+DSP Report: register mul_const2/q_mul0 is absorbed into DSP mul_const2/q_mul0.
+DSP Report: register mul_const2/q_mul0 is absorbed into DSP mul_const2/q_mul0.
+DSP Report: operator mul_const2/q_mul0 is absorbed into DSP mul_const2/q_mul0.
+DSP Report: operator mul_const2/q_mul0 is absorbed into DSP mul_const2/q_mul0.
+DSP Report: Generating DSP mul_const2/q_mul0, operation Mode is: PCIN+A''*(B:0x0).
+DSP Report: register mul_const2/q_mul0 is absorbed into DSP mul_const2/q_mul0.
+DSP Report: register mul_const2/q_mul0 is absorbed into DSP mul_const2/q_mul0.
+DSP Report: operator mul_const2/q_mul0 is absorbed into DSP mul_const2/q_mul0.
+DSP Report: operator mul_const2/q_mul0 is absorbed into DSP mul_const2/q_mul0.
+DSP Report: Generating DSP mul_const2/q_mul0, operation Mode is: (PCIN>>17)+A''*B.
+DSP Report: register mul_const2/q_mul0 is absorbed into DSP mul_const2/q_mul0.
+DSP Report: register mul_const2/q_mul0 is absorbed into DSP mul_const2/q_mul0.
+DSP Report: operator mul_const2/q_mul0 is absorbed into DSP mul_const2/q_mul0.
+DSP Report: operator mul_const2/q_mul0 is absorbed into DSP mul_const2/q_mul0.
+DSP Report: Generating DSP mul_const2/q_mul_reg, operation Mode is: (PCIN+A''*B)'.
+DSP Report: register mul_const2/q_mul_reg is absorbed into DSP mul_const2/q_mul_reg.
+DSP Report: register mul_const2/q_mul_reg is absorbed into DSP mul_const2/q_mul_reg.
+DSP Report: register mul_const2/q_mul_reg is absorbed into DSP mul_const2/q_mul_reg.
+DSP Report: operator mul_const2/q_mul0 is absorbed into DSP mul_const2/q_mul_reg.
+DSP Report: operator mul_const2/q_mul0 is absorbed into DSP mul_const2/q_mul_reg.
+DSP Report: Generating DSP mul_const2/q_mul0, operation Mode is: A''*(B:0x0).
+DSP Report: register mul_const2/q_mul0 is absorbed into DSP mul_const2/q_mul0.
+DSP Report: register mul_const2/q_mul0 is absorbed into DSP mul_const2/q_mul0.
+DSP Report: operator mul_const2/q_mul0 is absorbed into DSP mul_const2/q_mul0.
+DSP Report: operator mul_const2/q_mul0 is absorbed into DSP mul_const2/q_mul0.
+DSP Report: Generating DSP mul_const2/q_mul0, operation Mode is: (PCIN>>17)+A''*B.
+DSP Report: register mul_const2/q_mul0 is absorbed into DSP mul_const2/q_mul0.
+DSP Report: register mul_const2/q_mul0 is absorbed into DSP mul_const2/q_mul0.
+DSP Report: operator mul_const2/q_mul0 is absorbed into DSP mul_const2/q_mul0.
+DSP Report: operator mul_const2/q_mul0 is absorbed into DSP mul_const2/q_mul0.
+DSP Report: Generating DSP mul_const2/q_mul0, operation Mode is: PCIN+A''*(B:0x0).
+DSP Report: register mul_const2/q_mul0 is absorbed into DSP mul_const2/q_mul0.
+DSP Report: register mul_const2/q_mul0 is absorbed into DSP mul_const2/q_mul0.
+DSP Report: operator mul_const2/q_mul0 is absorbed into DSP mul_const2/q_mul0.
+DSP Report: operator mul_const2/q_mul0 is absorbed into DSP mul_const2/q_mul0.
+DSP Report: Generating DSP mul_const2/q_mul_reg, operation Mode is: (PCIN>>17)+A''*B.
+DSP Report: register mul_const2/q_mul_reg is absorbed into DSP mul_const2/q_mul_reg.
+DSP Report: register mul_const2/q_mul_reg is absorbed into DSP mul_const2/q_mul_reg.
+DSP Report: register mul_const2/q_mul_reg is absorbed into DSP mul_const2/q_mul_reg.
+DSP Report: operator mul_const2/q_mul0 is absorbed into DSP mul_const2/q_mul_reg.
+DSP Report: operator mul_const2/q_mul0 is absorbed into DSP mul_const2/q_mul_reg.
+DSP Report: Generating DSP deg_7/x_d_m_60, operation Mode is: A*B2.
+DSP Report: register deg_7/x_d_m_60 is absorbed into DSP deg_7/x_d_m_60.
+DSP Report: operator deg_7/x_d_m_60 is absorbed into DSP deg_7/x_d_m_60.
+DSP Report: operator deg_7/x_d_m_60 is absorbed into DSP deg_7/x_d_m_60.
+DSP Report: Generating DSP deg_7/x_d_m_6_reg, operation Mode is: (PCIN>>17)+A2*B.
+DSP Report: register deg_7/x_d_m_6_reg is absorbed into DSP deg_7/x_d_m_6_reg.
+DSP Report: register deg_7/x_d_m_6_reg is absorbed into DSP deg_7/x_d_m_6_reg.
+DSP Report: operator deg_7/x_d_m_60 is absorbed into DSP deg_7/x_d_m_6_reg.
+DSP Report: operator deg_7/x_d_m_60 is absorbed into DSP deg_7/x_d_m_6_reg.
+DSP Report: Generating DSP deg_7/x_d_m_60, operation Mode is: A*B2.
+DSP Report: register deg_7/x_d_m_60 is absorbed into DSP deg_7/x_d_m_60.
+DSP Report: operator deg_7/x_d_m_60 is absorbed into DSP deg_7/x_d_m_60.
+DSP Report: operator deg_7/x_d_m_60 is absorbed into DSP deg_7/x_d_m_60.
+DSP Report: Generating DSP deg_7/x_d_m_6_reg, operation Mode is: (PCIN>>17)+A*B2.
+DSP Report: register deg_7/x_d_m_6_reg is absorbed into DSP deg_7/x_d_m_6_reg.
+DSP Report: register deg_7/x_d_m_6_reg is absorbed into DSP deg_7/x_d_m_6_reg.
+DSP Report: operator deg_7/x_d_m_60 is absorbed into DSP deg_7/x_d_m_6_reg.
+DSP Report: operator deg_7/x_d_m_60 is absorbed into DSP deg_7/x_d_m_6_reg.
+DSP Report: Generating DSP deg_7/x_d_m_70, operation Mode is: A*B2.
+DSP Report: register deg_7/x_d_m_70 is absorbed into DSP deg_7/x_d_m_70.
+DSP Report: operator deg_7/x_d_m_70 is absorbed into DSP deg_7/x_d_m_70.
+DSP Report: operator deg_7/x_d_m_70 is absorbed into DSP deg_7/x_d_m_70.
+DSP Report: Generating DSP deg_7/x_d_m_7_reg, operation Mode is: (PCIN>>17)+A*B2.
+DSP Report: register deg_7/x_d_m_7_reg is absorbed into DSP deg_7/x_d_m_7_reg.
+DSP Report: register deg_7/x_d_m_7_reg is absorbed into DSP deg_7/x_d_m_7_reg.
+DSP Report: operator deg_7/x_d_m_70 is absorbed into DSP deg_7/x_d_m_7_reg.
+DSP Report: operator deg_7/x_d_m_70 is absorbed into DSP deg_7/x_d_m_7_reg.
+DSP Report: Generating DSP deg_7/x_d_m_70, operation Mode is: A*B2.
+DSP Report: register deg_7/x_d_m_70 is absorbed into DSP deg_7/x_d_m_70.
+DSP Report: operator deg_7/x_d_m_70 is absorbed into DSP deg_7/x_d_m_70.
+DSP Report: operator deg_7/x_d_m_70 is absorbed into DSP deg_7/x_d_m_70.
+DSP Report: Generating DSP deg_7/x_d_m_7_reg, operation Mode is: (PCIN>>17)+A*B2.
+DSP Report: register deg_7/x_d_m_7_reg is absorbed into DSP deg_7/x_d_m_7_reg.
+DSP Report: register deg_7/x_d_m_7_reg is absorbed into DSP deg_7/x_d_m_7_reg.
+DSP Report: operator deg_7/x_d_m_70 is absorbed into DSP deg_7/x_d_m_7_reg.
+DSP Report: operator deg_7/x_d_m_70 is absorbed into DSP deg_7/x_d_m_7_reg.
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (\shell/SE_x_o_reg[0] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (\shell/mul_const3/q_mul_reg[0] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (\shell/mul_const3/q_mul_reg[1] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (\shell/SE_x_o_reg[1] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (\shell/SE_x_o_reg[2] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (\shell/mul_const3/q_mul_reg[2] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (\shell/SE_x_o_reg[3] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (\shell/mul_const3/q_mul_reg[3] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (\shell/SE_x_o_reg[4] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (\shell/mul_const3/q_mul_reg[4] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (\shell/SE_x_o_reg[5] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (\shell/mul_const3/q_mul_reg[5] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (\shell/SE_x_o_reg[6] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (\shell/mul_const3/q_mul_reg[6] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (\shell/SE_x_o_reg[7] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (\shell/mul_const3/q_mul_reg[7] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (\shell/SE_x_o_reg[8] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (\shell/mul_const3/q_mul_reg[8] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (\shell/SE_x_o_reg[9] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (\shell/mul_const3/q_mul_reg[9] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (\shell/SE_x_o_reg[10] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (\shell/mul_const3/q_mul_reg[10] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (\shell/SE_x_o_reg[11] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (\shell/mul_const3/q_mul_reg[11] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (\shell/SE_x_o_reg[12] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (\shell/mul_const3/q_mul_reg[12] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (\shell/SE_x_o_reg[13] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (\shell/mul_const3/q_mul_reg[13] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (\shell/SE_x_o_reg[14] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (\shell/mul_const3/q_mul_reg[14] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (\shell/SE_x_o_reg[15] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (\shell/mul_const3/q_mul_reg[15] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (\shell/SE_x_o_reg[16] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (\shell/mul_const3/q_mul_reg[16] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (\shell/SE_x_o_reg[17] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (\shell/mul_const3/q_mul_reg[17] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (\shell/SE_x_o_reg[18] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (\shell/mul_const3/q_mul_reg[18] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (\shell/SE_x_o_reg[19] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (\shell/mul_const3/q_mul_reg[19] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (\shell/SE_x_o_reg[20] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (\shell/mul_const3/q_mul_reg[20] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (\shell/SE_x_o_reg[21] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (\shell/mul_const3/q_mul_reg[21] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (\shell/SE_x_o_reg[22] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (\shell/mul_const3/q_mul_reg[22] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (\shell/SE_x_o_reg[23] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (\shell/mul_const3/q_mul_reg[23] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (\shell/SE_x_o_reg[24] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (\shell/mul_const3/q_mul_reg[24] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (\shell/SE_x_o_reg[25] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (\shell/mul_const3/q_mul_reg[25] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (\shell/SE_x_o_reg[26] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (\shell/mul_const3/q_mul_reg[26] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (\shell/SE_x_o_reg[27] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (\shell/mul_const3/q_mul_reg[27] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (\shell/SE_x_o_reg[28] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (\shell/mul_const3/q_mul_reg[28] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (\shell/SE_x_o_reg[29] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (\shell/mul_const3/q_mul_reg[29] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (\shell/SE_x_o_reg[30] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (\shell/mul_const3/q_mul_reg[30] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (\shell/SE_x_o_reg[31] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (\shell/mul_const3/q_mul_reg[31] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (\shell/SE_x_o_reg[32] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (\shell/mul_const3/q_mul_reg[32] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (\shell/SE_x_o_reg[33] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (\shell/mul_const3/q_mul_reg[33] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (\shell/SE_x_o_reg[34] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (\shell/mul_const3/q_mul_reg[34] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (\shell/SE_x_o_reg[35] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (\shell/mul_const3/q_mul_reg[35] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (\shell/SE_x_o_reg[36] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (\shell/mul_const3/q_mul_reg[36] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (\shell/SE_x_o_reg[37] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (\shell/mul_const3/q_mul_reg[37] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (\shell/SE_x_o_reg[38] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (\shell/mul_const3/q_mul_reg[38] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (\shell/SE_x_o_reg[39] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (\shell/mul_const3/q_mul_reg[39] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (\shell/SE_x_o_reg[40] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (\shell/mul_const3/q_mul_reg[40] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (\shell/SE_x_o_reg[41] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (\shell/mul_const3/q_mul_reg[41] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (\shell/SE_x_o_reg[42] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (\shell/mul_const3/q_mul_reg[42] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (\shell/SE_x_o_reg[43] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (\shell/mul_const3/q_mul_reg[43] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (\shell/SE_x_o_reg[44] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (\shell/SE_x_o_reg[45] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (\shell/SE_x_o_reg[46] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (\shell/SE_x_o_reg[47] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (\shell/SE_x_o_reg[48] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (\shell/SE_x_o_reg[49] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (\shell/SE_x_o_reg[50] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (\shell/SE_x_o_reg[51] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (\shell/SE_x_o_reg[52] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (\shell/SE_x_o_reg[53] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (\shell/SE_x_o_reg[54] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (\shell/SE_x_o_reg[55] )
+INFO: [Common 17-14] Message 'Synth 8-3333' appears 100 times and further instances of the messages will be disabled. Use the Tcl command set_msg_config to change the current settings.
+WARNING: [Synth 8-3332] Sequential element (shell/mul_const1/q_mul_reg[47]) is unused and will be removed from module sine_taylor_shell.
+WARNING: [Synth 8-3332] Sequential element (shell/mul_const1/q_mul_reg[46]) is unused and will be removed from module sine_taylor_shell.
+WARNING: [Synth 8-3332] Sequential element (shell/mul_const1/q_mul_reg[45]) is unused and will be removed from module sine_taylor_shell.
+WARNING: [Synth 8-3332] Sequential element (shell/mul_const1/q_mul_reg[44]) is unused and will be removed from module sine_taylor_shell.
+WARNING: [Synth 8-3332] Sequential element (shell/mul_const1/q_mul_reg[43]) is unused and will be removed from module sine_taylor_shell.
+WARNING: [Synth 8-3332] Sequential element (shell/mul_const1/q_mul_reg[42]) is unused and will be removed from module sine_taylor_shell.
+WARNING: [Synth 8-3332] Sequential element (shell/mul_const1/q_mul_reg[41]) is unused and will be removed from module sine_taylor_shell.
+WARNING: [Synth 8-3332] Sequential element (shell/mul_const1/q_mul_reg[40]) is unused and will be removed from module sine_taylor_shell.
+WARNING: [Synth 8-3332] Sequential element (shell/mul_const1/q_mul_reg[39]) is unused and will be removed from module sine_taylor_shell.
+WARNING: [Synth 8-3332] Sequential element (shell/mul_const1/q_mul_reg[38]) is unused and will be removed from module sine_taylor_shell.
+WARNING: [Synth 8-3332] Sequential element (shell/mul_const1/q_mul_reg[37]) is unused and will be removed from module sine_taylor_shell.
+WARNING: [Synth 8-3332] Sequential element (shell/mul_const1/q_mul_reg[36]) is unused and will be removed from module sine_taylor_shell.
+WARNING: [Synth 8-3332] Sequential element (shell/mul_const1/q_mul_reg[35]) is unused and will be removed from module sine_taylor_shell.
+WARNING: [Synth 8-3332] Sequential element (shell/mul_const1/q_mul_reg[34]) is unused and will be removed from module sine_taylor_shell.
+WARNING: [Synth 8-3332] Sequential element (shell/mul_const1/q_mul_reg[33]) is unused and will be removed from module sine_taylor_shell.
+WARNING: [Synth 8-3332] Sequential element (shell/mul_const1/q_mul_reg[32]) is unused and will be removed from module sine_taylor_shell.
+WARNING: [Synth 8-3332] Sequential element (shell/mul_const1/q_mul_reg[31]) is unused and will be removed from module sine_taylor_shell.
+WARNING: [Synth 8-3332] Sequential element (shell/mul_const1/q_mul_reg[30]) is unused and will be removed from module sine_taylor_shell.
+WARNING: [Synth 8-3332] Sequential element (shell/mul_const1/q_mul_reg[29]) is unused and will be removed from module sine_taylor_shell.
+WARNING: [Synth 8-3332] Sequential element (shell/mul_const1/q_mul_reg[28]) is unused and will be removed from module sine_taylor_shell.
+WARNING: [Synth 8-3332] Sequential element (shell/mul_const1/q_mul_reg[27]) is unused and will be removed from module sine_taylor_shell.
+WARNING: [Synth 8-3332] Sequential element (shell/mul_const1/q_mul_reg[26]) is unused and will be removed from module sine_taylor_shell.
+WARNING: [Synth 8-3332] Sequential element (shell/mul_const1/q_mul_reg[25]) is unused and will be removed from module sine_taylor_shell.
+WARNING: [Synth 8-3332] Sequential element (shell/mul_const1/q_mul_reg[24]) is unused and will be removed from module sine_taylor_shell.
+WARNING: [Synth 8-3332] Sequential element (shell/mul_const1/q_mul_reg[23]) is unused and will be removed from module sine_taylor_shell.
+WARNING: [Synth 8-3332] Sequential element (shell/mul_const1/q_mul_reg[22]) is unused and will be removed from module sine_taylor_shell.
+WARNING: [Synth 8-3332] Sequential element (shell/mul_const1/q_mul_reg[21]) is unused and will be removed from module sine_taylor_shell.
+WARNING: [Synth 8-3332] Sequential element (shell/mul_const1/q_mul_reg[20]) is unused and will be removed from module sine_taylor_shell.
+WARNING: [Synth 8-3332] Sequential element (shell/mul_const1/q_mul_reg[19]) is unused and will be removed from module sine_taylor_shell.
+WARNING: [Synth 8-3332] Sequential element (shell/mul_const1/q_mul_reg[18]) is unused and will be removed from module sine_taylor_shell.
+WARNING: [Synth 8-3332] Sequential element (shell/mul_const1/q_mul_reg[17]) is unused and will be removed from module sine_taylor_shell.
+WARNING: [Synth 8-3332] Sequential element (shell/mul_const1/q_mul_reg[47]__0) is unused and will be removed from module sine_taylor_shell.
+WARNING: [Synth 8-3332] Sequential element (shell/mul_const1/q_mul_reg[46]__0) is unused and will be removed from module sine_taylor_shell.
+WARNING: [Synth 8-3332] Sequential element (shell/mul_const1/q_mul_reg[45]__0) is unused and will be removed from module sine_taylor_shell.
+WARNING: [Synth 8-3332] Sequential element (shell/mul_const1/q_mul_reg[44]__0) is unused and will be removed from module sine_taylor_shell.
+WARNING: [Synth 8-3332] Sequential element (shell/mul_const1/q_mul_reg[43]__0) is unused and will be removed from module sine_taylor_shell.
+WARNING: [Synth 8-3332] Sequential element (shell/mul_const1/q_mul_reg[42]__0) is unused and will be removed from module sine_taylor_shell.
+WARNING: [Synth 8-3332] Sequential element (shell/mul_const1/q_mul_reg[41]__0) is unused and will be removed from module sine_taylor_shell.
+WARNING: [Synth 8-3332] Sequential element (shell/mul_const1/q_mul_reg[40]__0) is unused and will be removed from module sine_taylor_shell.
+WARNING: [Synth 8-3332] Sequential element (shell/mul_const1/q_mul_reg[39]__0) is unused and will be removed from module sine_taylor_shell.
+WARNING: [Synth 8-3332] Sequential element (shell/mul_const1/q_mul_reg[38]__0) is unused and will be removed from module sine_taylor_shell.
+WARNING: [Synth 8-3332] Sequential element (shell/mul_const1/q_mul_reg[37]__0) is unused and will be removed from module sine_taylor_shell.
+WARNING: [Synth 8-3332] Sequential element (shell/mul_const1/q_mul_reg[36]__0) is unused and will be removed from module sine_taylor_shell.
+WARNING: [Synth 8-3332] Sequential element (shell/mul_const1/q_mul_reg[35]__0) is unused and will be removed from module sine_taylor_shell.
+WARNING: [Synth 8-3332] Sequential element (shell/mul_const1/q_mul_reg[34]__0) is unused and will be removed from module sine_taylor_shell.
+WARNING: [Synth 8-3332] Sequential element (shell/mul_const1/q_mul_reg[33]__0) is unused and will be removed from module sine_taylor_shell.
+WARNING: [Synth 8-3332] Sequential element (shell/mul_const1/q_mul_reg[32]__0) is unused and will be removed from module sine_taylor_shell.
+WARNING: [Synth 8-3332] Sequential element (shell/mul_const1/q_mul_reg[31]__0) is unused and will be removed from module sine_taylor_shell.
+WARNING: [Synth 8-3332] Sequential element (shell/mul_const1/q_mul_reg[30]__0) is unused and will be removed from module sine_taylor_shell.
+WARNING: [Synth 8-3332] Sequential element (shell/mul_const1/q_mul_reg[29]__0) is unused and will be removed from module sine_taylor_shell.
+WARNING: [Synth 8-3332] Sequential element (shell/mul_const1/q_mul_reg[28]__0) is unused and will be removed from module sine_taylor_shell.
+WARNING: [Synth 8-3332] Sequential element (shell/mul_const1/q_mul_reg[27]__0) is unused and will be removed from module sine_taylor_shell.
+WARNING: [Synth 8-3332] Sequential element (shell/mul_const1/q_mul_reg[26]__0) is unused and will be removed from module sine_taylor_shell.
+WARNING: [Synth 8-3332] Sequential element (shell/mul_const1/q_mul_reg[25]__0) is unused and will be removed from module sine_taylor_shell.
+WARNING: [Synth 8-3332] Sequential element (shell/mul_const1/q_mul_reg[24]__0) is unused and will be removed from module sine_taylor_shell.
+WARNING: [Synth 8-3332] Sequential element (shell/mul_const1/q_mul_reg[23]__0) is unused and will be removed from module sine_taylor_shell.
+WARNING: [Synth 8-3332] Sequential element (shell/mul_const1/q_mul_reg[22]__0) is unused and will be removed from module sine_taylor_shell.
+WARNING: [Synth 8-3332] Sequential element (shell/mul_const1/q_mul_reg[21]__0) is unused and will be removed from module sine_taylor_shell.
+WARNING: [Synth 8-3332] Sequential element (shell/mul_const1/q_mul_reg[20]__0) is unused and will be removed from module sine_taylor_shell.
+WARNING: [Synth 8-3332] Sequential element (shell/mul_const1/q_mul_reg[19]__0) is unused and will be removed from module sine_taylor_shell.
+WARNING: [Synth 8-3332] Sequential element (shell/mul_const1/q_mul_reg[18]__0) is unused and will be removed from module sine_taylor_shell.
+WARNING: [Synth 8-3332] Sequential element (shell/mul_const1/q_mul_reg[17]__0) is unused and will be removed from module sine_taylor_shell.
+WARNING: [Synth 8-3332] Sequential element (shell/mul_const1/q_mul_reg[47]__2) is unused and will be removed from module sine_taylor_shell.
+WARNING: [Synth 8-3332] Sequential element (shell/mul_const1/q_mul_reg[46]__2) is unused and will be removed from module sine_taylor_shell.
+WARNING: [Synth 8-3332] Sequential element (shell/mul_const1/q_mul_reg[45]__2) is unused and will be removed from module sine_taylor_shell.
+WARNING: [Synth 8-3332] Sequential element (shell/mul_const1/q_mul_reg[44]__2) is unused and will be removed from module sine_taylor_shell.
+WARNING: [Synth 8-3332] Sequential element (shell/mul_const1/q_mul_reg[43]__2) is unused and will be removed from module sine_taylor_shell.
+WARNING: [Synth 8-3332] Sequential element (shell/mul_const1/q_mul_reg[42]__2) is unused and will be removed from module sine_taylor_shell.
+WARNING: [Synth 8-3332] Sequential element (shell/mul_const1/q_mul_reg[41]__2) is unused and will be removed from module sine_taylor_shell.
+WARNING: [Synth 8-3332] Sequential element (shell/mul_const1/q_mul_reg[40]__2) is unused and will be removed from module sine_taylor_shell.
+WARNING: [Synth 8-3332] Sequential element (shell/mul_const1/q_mul_reg[39]__2) is unused and will be removed from module sine_taylor_shell.
+WARNING: [Synth 8-3332] Sequential element (shell/mul_const1/q_mul_reg[38]__2) is unused and will be removed from module sine_taylor_shell.
+WARNING: [Synth 8-3332] Sequential element (shell/mul_const1/q_mul_reg[37]__2) is unused and will be removed from module sine_taylor_shell.
+WARNING: [Synth 8-3332] Sequential element (shell/mul_const1/q_mul_reg[36]__2) is unused and will be removed from module sine_taylor_shell.
+WARNING: [Synth 8-3332] Sequential element (shell/mul_const1/q_mul_reg[35]__2) is unused and will be removed from module sine_taylor_shell.
+WARNING: [Synth 8-3332] Sequential element (shell/mul_const1/q_mul_reg[34]__2) is unused and will be removed from module sine_taylor_shell.
+WARNING: [Synth 8-3332] Sequential element (shell/mul_const1/q_mul_reg[33]__2) is unused and will be removed from module sine_taylor_shell.
+WARNING: [Synth 8-3332] Sequential element (shell/mul_const1/q_mul_reg[32]__2) is unused and will be removed from module sine_taylor_shell.
+WARNING: [Synth 8-3332] Sequential element (shell/mul_const1/q_mul_reg[31]__2) is unused and will be removed from module sine_taylor_shell.
+WARNING: [Synth 8-3332] Sequential element (shell/mul_const1/q_mul_reg[30]__2) is unused and will be removed from module sine_taylor_shell.
+WARNING: [Synth 8-3332] Sequential element (shell/mul_const1/q_mul_reg[29]__2) is unused and will be removed from module sine_taylor_shell.
+WARNING: [Synth 8-3332] Sequential element (shell/mul_const1/q_mul_reg[28]__2) is unused and will be removed from module sine_taylor_shell.
+WARNING: [Synth 8-3332] Sequential element (shell/mul_const1/q_mul_reg[27]__2) is unused and will be removed from module sine_taylor_shell.
+WARNING: [Synth 8-3332] Sequential element (shell/mul_const1/q_mul_reg[26]__2) is unused and will be removed from module sine_taylor_shell.
+WARNING: [Synth 8-3332] Sequential element (shell/mul_const1/q_mul_reg[25]__2) is unused and will be removed from module sine_taylor_shell.
+WARNING: [Synth 8-3332] Sequential element (shell/mul_const1/q_mul_reg[24]__2) is unused and will be removed from module sine_taylor_shell.
+WARNING: [Synth 8-3332] Sequential element (shell/mul_const1/q_mul_reg[23]__2) is unused and will be removed from module sine_taylor_shell.
+WARNING: [Synth 8-3332] Sequential element (shell/mul_const1/q_mul_reg[22]__2) is unused and will be removed from module sine_taylor_shell.
+WARNING: [Synth 8-3332] Sequential element (shell/mul_const1/q_mul_reg[21]__2) is unused and will be removed from module sine_taylor_shell.
+WARNING: [Synth 8-3332] Sequential element (shell/mul_const1/q_mul_reg[20]__2) is unused and will be removed from module sine_taylor_shell.
+WARNING: [Synth 8-3332] Sequential element (shell/mul_const1/q_mul_reg[19]__2) is unused and will be removed from module sine_taylor_shell.
+WARNING: [Synth 8-3332] Sequential element (shell/mul_const1/q_mul_reg[18]__2) is unused and will be removed from module sine_taylor_shell.
+WARNING: [Synth 8-3332] Sequential element (shell/mul_const1/q_mul_reg[17]__2) is unused and will be removed from module sine_taylor_shell.
+WARNING: [Synth 8-3332] Sequential element (shell/mul_const1/q_mul_reg[47]__3) is unused and will be removed from module sine_taylor_shell.
+WARNING: [Synth 8-3332] Sequential element (shell/mul_const1/q_mul_reg[46]__3) is unused and will be removed from module sine_taylor_shell.
+WARNING: [Synth 8-3332] Sequential element (shell/mul_const1/q_mul_reg[45]__3) is unused and will be removed from module sine_taylor_shell.
+WARNING: [Synth 8-3332] Sequential element (shell/mul_const1/q_mul_reg[44]__3) is unused and will be removed from module sine_taylor_shell.
+WARNING: [Synth 8-3332] Sequential element (shell/mul_const1/q_mul_reg[43]__3) is unused and will be removed from module sine_taylor_shell.
+WARNING: [Synth 8-3332] Sequential element (shell/mul_const1/q_mul_reg[42]__3) is unused and will be removed from module sine_taylor_shell.
+WARNING: [Synth 8-3332] Sequential element (shell/mul_const1/q_mul_reg[41]__3) is unused and will be removed from module sine_taylor_shell.
+INFO: [Common 17-14] Message 'Synth 8-3332' appears 100 times and further instances of the messages will be disabled. Use the Tcl command set_msg_config to change the current settings.
+---------------------------------------------------------------------------------
+Finished Cross Boundary and Area Optimization : Time (s): cpu = 00:00:18 ; elapsed = 00:00:19 . Memory (MB): peak = 960.652 ; gain = 409.500
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start ROM, RAM, DSP and Shift Register Reporting
+---------------------------------------------------------------------------------
+
+DSP: Preliminary Mapping	Report (see note below)
++------------+------------------+--------+--------+--------+--------+--------+------+------+------+------+-------+------+------+
+|Module Name | DSP Mapping      | A Size | B Size | C Size | D Size | P Size | AREG | BREG | CREG | DREG | ADREG | MREG | PREG | 
++------------+------------------+--------+--------+--------+--------+--------+------+------+------+------+-------+------+------+
+|sine_taylor | (A2*B2)'         | 12     | 12     | -      | -      | 24     | 1    | 1    | -    | -    | -     | 1    | 0    | 
+|sine_taylor | (A*B2)'          | 24     | 12     | -      | -      | 36     | 0    | 1    | -    | -    | -     | 1    | 0    | 
+|sine_taylor | A*B''            | 21     | 18     | -      | -      | 48     | 0    | 2    | -    | -    | -     | 0    | 0    | 
+|sine_taylor | PCIN+A*B2        | 18     | 17     | -      | -      | 48     | 0    | 1    | -    | -    | -     | 0    | 0    | 
+|sine_taylor | (PCIN>>17)+A*B2  | 21     | 17     | -      | -      | 48     | 0    | 1    | -    | -    | -     | 0    | 1    | 
+|sine_taylor | A''*(B:0x0)      | 18     | 2      | -      | -      | 48     | 2    | 0    | -    | -    | -     | 0    | 0    | 
+|sine_taylor | (PCIN>>17)+A*B'' | 21     | 18     | -      | -      | 48     | 0    | 2    | -    | -    | -     | 0    | 0    | 
+|sine_taylor | PCIN+A''*B       | 18     | 18     | -      | -      | 48     | 2    | 0    | -    | -    | -     | 0    | 0    | 
+|sine_taylor | A''*B            | 18     | 18     | -      | -      | 48     | 2    | 0    | -    | -    | -     | 0    | 0    | 
+|sine_taylor | PCIN+A''*(B:0x0) | 18     | 2      | -      | -      | 48     | 2    | 0    | -    | -    | -     | 0    | 0    | 
+|sine_taylor | (PCIN>>17)+A*B'' | 21     | 18     | -      | -      | 48     | 0    | 2    | -    | -    | -     | 0    | 0    | 
+|sine_taylor | (PCIN+A''*B)'    | 18     | 18     | -      | -      | 48     | 2    | 0    | -    | -    | -     | 0    | 1    | 
+|sine_taylor | A2*(B:0x0)       | 18     | 2      | -      | -      | 48     | 1    | 0    | -    | -    | -     | 0    | 0    | 
+|sine_taylor | (PCIN>>17)+A2*B  | 18     | 18     | -      | -      | 48     | 1    | 0    | -    | -    | -     | 0    | 0    | 
+|sine_taylor | PCIN+A''*(B:0x0) | 18     | 2      | -      | -      | 48     | 2    | 0    | -    | -    | -     | 0    | 0    | 
+|sine_taylor | (PCIN>>17)+A*B2  | 21     | 18     | -      | -      | 48     | 0    | 1    | -    | -    | -     | 0    | 1    | 
+|sine_taylor | A*B2             | 18     | 13     | -      | -      | 48     | 0    | 1    | -    | -    | -     | 0    | 0    | 
+|sine_taylor | (PCIN>>17)+A*B2  | 20     | 13     | -      | -      | 48     | 0    | 1    | -    | -    | -     | 0    | 1    | 
+|sine_taylor | (A*B2)'          | 15     | 13     | -      | -      | 48     | 0    | 1    | -    | -    | -     | 1    | 0    | 
+|sine_taylor | A2*B2            | 18     | 13     | -      | -      | 48     | 1    | 1    | -    | -    | -     | 0    | 0    | 
+|sine_taylor | (PCIN>>17)+A*B2  | 18     | 13     | -      | -      | 48     | 0    | 1    | -    | -    | -     | 0    | 1    | 
+|sine_taylor | A''*B            | 18     | 17     | -      | -      | 48     | 2    | 0    | -    | -    | -     | 0    | 0    | 
+|sine_taylor | PCIN+A*B''       | 18     | 17     | -      | -      | 48     | 0    | 2    | -    | -    | -     | 0    | 0    | 
+|sine_taylor | (PCIN>>17)+A''*B | 17     | 17     | -      | -      | 48     | 2    | 0    | -    | -    | -     | 0    | 1    | 
+|sine_taylor | A''*(B:0x0)      | 18     | 2      | -      | -      | 48     | 2    | 0    | -    | -    | -     | 0    | 0    | 
+|sine_taylor | (PCIN>>17)+A''*B | 18     | 17     | -      | -      | 48     | 2    | 0    | -    | -    | -     | 0    | 0    | 
+|sine_taylor | PCIN+A''*B       | 18     | 18     | -      | -      | 48     | 2    | 0    | -    | -    | -     | 0    | 0    | 
+|sine_taylor | A''*B            | 18     | 18     | -      | -      | 48     | 2    | 0    | -    | -    | -     | 0    | 0    | 
+|sine_taylor | PCIN+A''*(B:0x0) | 18     | 2      | -      | -      | 48     | 2    | 0    | -    | -    | -     | 0    | 0    | 
+|sine_taylor | (PCIN>>17)+A''*B | 18     | 17     | -      | -      | 48     | 2    | 0    | -    | -    | -     | 0    | 0    | 
+|sine_taylor | (PCIN+A''*B)'    | 18     | 18     | -      | -      | 48     | 2    | 0    | -    | -    | -     | 0    | 1    | 
+|sine_taylor | A''*(B:0x0)      | 18     | 2      | -      | -      | 48     | 2    | 0    | -    | -    | -     | 0    | 0    | 
+|sine_taylor | (PCIN>>17)+A''*B | 18     | 18     | -      | -      | 48     | 2    | 0    | -    | -    | -     | 0    | 0    | 
+|sine_taylor | PCIN+A''*(B:0x0) | 18     | 2      | -      | -      | 48     | 2    | 0    | -    | -    | -     | 0    | 0    | 
+|sine_taylor | (PCIN>>17)+A''*B | 18     | 17     | -      | -      | 48     | 2    | 0    | -    | -    | -     | 0    | 1    | 
+|sine_taylor | A*B2             | 18     | 13     | -      | -      | 48     | 0    | 1    | -    | -    | -     | 0    | 0    | 
+|sine_taylor | (PCIN>>17)+A2*B  | 13     | 10     | -      | -      | 48     | 1    | 0    | -    | -    | -     | 0    | 1    | 
+|sine_taylor | A*B2             | 18     | 13     | -      | -      | 48     | 0    | 1    | -    | -    | -     | 0    | 0    | 
+|sine_taylor | (PCIN>>17)+A*B2  | 18     | 13     | -      | -      | 48     | 0    | 1    | -    | -    | -     | 0    | 1    | 
+|sine_taylor | A*B2             | 18     | 13     | -      | -      | 48     | 0    | 1    | -    | -    | -     | 0    | 0    | 
+|sine_taylor | (PCIN>>17)+A*B2  | 22     | 13     | -      | -      | 48     | 0    | 1    | -    | -    | -     | 0    | 1    | 
+|sine_taylor | A*B2             | 18     | 13     | -      | -      | 48     | 0    | 1    | -    | -    | -     | 0    | 0    | 
+|sine_taylor | (PCIN>>17)+A*B2  | 18     | 13     | -      | -      | 48     | 0    | 1    | -    | -    | -     | 0    | 1    | 
++------------+------------------+--------+--------+--------+--------+--------+------+------+------+------+-------+------+------+
+
+Note: The table above is a preliminary report that shows the DSPs inferred at the current stage of the synthesis flow. Some DSP may be reimplemented as non DSP primitives later in the synthesis flow. Multiple instantiated DSPs are reported only once.
+---------------------------------------------------------------------------------
+Finished ROM, RAM, DSP and Shift Register Reporting
+---------------------------------------------------------------------------------
+
+Report RTL Partitions: 
++-+--------------+------------+----------+
+| |RTL Partition |Replication |Instances |
++-+--------------+------------+----------+
++-+--------------+------------+----------+
+---------------------------------------------------------------------------------
+Start Applying XDC Timing Constraints
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Applying XDC Timing Constraints : Time (s): cpu = 00:00:29 ; elapsed = 00:00:30 . Memory (MB): peak = 1022.059 ; gain = 470.906
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Timing Optimization
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Timing Optimization : Time (s): cpu = 00:00:30 ; elapsed = 00:00:31 . Memory (MB): peak = 1033.383 ; gain = 482.230
+---------------------------------------------------------------------------------
+
+Report RTL Partitions: 
++-+--------------+------------+----------+
+| |RTL Partition |Replication |Instances |
++-+--------------+------------+----------+
++-+--------------+------------+----------+
+---------------------------------------------------------------------------------
+Start Technology Mapping
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Technology Mapping : Time (s): cpu = 00:00:31 ; elapsed = 00:00:32 . Memory (MB): peak = 1056.922 ; gain = 505.770
+---------------------------------------------------------------------------------
+
+Report RTL Partitions: 
++-+--------------+------------+----------+
+| |RTL Partition |Replication |Instances |
++-+--------------+------------+----------+
++-+--------------+------------+----------+
+---------------------------------------------------------------------------------
+Start IO Insertion
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Flattening Before IO Insertion
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Flattening Before IO Insertion
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Final Netlist Cleanup
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Final Netlist Cleanup
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished IO Insertion : Time (s): cpu = 00:00:35 ; elapsed = 00:00:36 . Memory (MB): peak = 1082.680 ; gain = 531.527
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Renaming Generated Instances
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Renaming Generated Instances : Time (s): cpu = 00:00:35 ; elapsed = 00:00:36 . Memory (MB): peak = 1082.680 ; gain = 531.527
+---------------------------------------------------------------------------------
+
+Report RTL Partitions: 
++-+--------------+------------+----------+
+| |RTL Partition |Replication |Instances |
++-+--------------+------------+----------+
++-+--------------+------------+----------+
+
+Report Check Netlist: 
++------+------------------+-------+---------+-------+------------------+
+|      |Item              |Errors |Warnings |Status |Description       |
++------+------------------+-------+---------+-------+------------------+
+|1     |multi_driven_nets |      0|        0|Passed |Multi driven nets |
++------+------------------+-------+---------+-------+------------------+
+---------------------------------------------------------------------------------
+Start Rebuilding User Hierarchy
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Rebuilding User Hierarchy : Time (s): cpu = 00:00:36 ; elapsed = 00:00:37 . Memory (MB): peak = 1082.680 ; gain = 531.527
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Renaming Generated Ports
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Renaming Generated Ports : Time (s): cpu = 00:00:36 ; elapsed = 00:00:37 . Memory (MB): peak = 1082.680 ; gain = 531.527
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Handling Custom Attributes
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Handling Custom Attributes : Time (s): cpu = 00:00:36 ; elapsed = 00:00:37 . Memory (MB): peak = 1082.680 ; gain = 531.527
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Renaming Generated Nets
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Renaming Generated Nets : Time (s): cpu = 00:00:36 ; elapsed = 00:00:37 . Memory (MB): peak = 1082.680 ; gain = 531.527
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Writing Synthesis Report
+---------------------------------------------------------------------------------
+
+Report BlackBoxes: 
++-+--------------+----------+
+| |BlackBox name |Instances |
++-+--------------+----------+
++-+--------------+----------+
+
+Report Cell Usage: 
++------+-----------+------+
+|      |Cell       |Count |
++------+-----------+------+
+|1     |BUFG       |     1|
+|2     |CARRY4     |   105|
+|3     |DSP48E1_10 |     5|
+|4     |DSP48E1_11 |     1|
+|5     |DSP48E1_12 |     2|
+|6     |DSP48E1_13 |     1|
+|7     |DSP48E1_14 |     1|
+|8     |DSP48E1_2  |     4|
+|9     |DSP48E1_3  |     4|
+|10    |DSP48E1_4  |     6|
+|11    |DSP48E1_5  |     8|
+|12    |DSP48E1_6  |     6|
+|13    |DSP48E1_7  |     1|
+|14    |DSP48E1_8  |     3|
+|15    |DSP48E1_9  |     1|
+|16    |LUT1       |    18|
+|17    |LUT2       |   154|
+|18    |LUT3       |   151|
+|19    |LUT4       |   133|
+|20    |LUT5       |   108|
+|21    |LUT6       |   181|
+|22    |FDCE       |    12|
+|23    |FDRE       |   539|
+|24    |IBUF       |    15|
+|25    |OBUF       |    16|
++------+-----------+------+
+
+Report Instance Areas: 
++------+---------------+----------------------------+------+
+|      |Instance       |Module                      |Cells |
++------+---------------+----------------------------+------+
+|1     |top            |                            |  1476|
+|2     |  shell        |sine_taylor                 |  1414|
+|3     |    arg_i      |reg_vld                     |    16|
+|4     |    d2p1       |sine_d2p                    |    22|
+|5     |    deg_3      |sine_degree                 |     2|
+|6     |    deg_5      |sine_degree__parameterized0 |    55|
+|7     |    deg_7      |sine_degree__parameterized1 |   229|
+|8     |    mul_const1 |sine_mul                    |   352|
+|9     |    mul_const2 |sine_mul_0                  |   395|
+|10    |    mul_const3 |sine_mul_1                  |   162|
+|11    |    p2d1       |sine_p2d                    |    49|
++------+---------------+----------------------------+------+
+---------------------------------------------------------------------------------
+Finished Writing Synthesis Report : Time (s): cpu = 00:00:36 ; elapsed = 00:00:37 . Memory (MB): peak = 1082.680 ; gain = 531.527
+---------------------------------------------------------------------------------
+Synthesis finished with 0 errors, 0 critical warnings and 470 warnings.
+Synthesis Optimization Runtime : Time (s): cpu = 00:00:28 ; elapsed = 00:00:35 . Memory (MB): peak = 1082.680 ; gain = 429.961
+Synthesis Optimization Complete : Time (s): cpu = 00:00:36 ; elapsed = 00:00:37 . Memory (MB): peak = 1082.680 ; gain = 531.527
+INFO: [Project 1-571] Translating synthesized netlist
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.042 . Memory (MB): peak = 1098.727 ; gain = 0.000
+INFO: [Netlist 29-17] Analyzing 148 Unisim elements for replacement
+INFO: [Netlist 29-28] Unisim Transformation completed in 0 CPU seconds
+INFO: [Project 1-570] Preparing netlist for logic optimization
+INFO: [Opt 31-138] Pushed 0 inverter(s) to 0 load pin(s).
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00 . Memory (MB): peak = 1098.727 ; gain = 0.000
+INFO: [Project 1-111] Unisim Transformation Summary:
+No Unisim elements were transformed.
+
+INFO: [Common 17-83] Releasing license: Synthesis
+144 Infos, 106 Warnings, 0 Critical Warnings and 0 Errors encountered.
+synth_design completed successfully
+synth_design: Time (s): cpu = 00:00:40 ; elapsed = 00:00:43 . Memory (MB): peak = 1098.727 ; gain = 799.914
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00 . Memory (MB): peak = 1098.727 ; gain = 0.000
+WARNING: [Constraints 18-5210] No constraints selected for write.
+Resolution: This message can indicate that there are no constraints for the design, or it can indicate that the used_in flags are set such that the constraints are ignored. This later case is used when running synth_design to not write synthesis constraints to the resulting checkpoint. Instead, project constraints are read when the synthesized design is opened.
+INFO: [Common 17-1381] The checkpoint 'C:/Vivado_project/JOB_projects/Sine_Taylor/Sine_Taylor.runs/synth_1/sine_taylor_shell.dcp' has been generated.
+INFO: [runtcl-4] Executing : report_utilization -file sine_taylor_shell_utilization_synth.rpt -pb sine_taylor_shell_utilization_synth.pb
+INFO: [Common 17-206] Exiting Vivado at Mon Apr  3 15:18:49 2023...

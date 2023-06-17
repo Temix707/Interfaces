@@ -1,0 +1,14 @@
+#-----------------------------------------------------------
+# Webtalk v2019.2 (64-bit)
+# SW Build 2708876 on Wed Nov  6 21:40:23 MST 2019
+# IP Build 2700528 on Thu Nov  7 00:09:20 MST 2019
+# Start of session at: Tue Dec 20 18:07:46 2022
+# Process ID: 18380
+# Current directory: C:/Users/artem/OneDrive/Рабочий стол/project_1/project_1.sim/sim_1/behav/xsim
+# Command line: wbtcv.exe -mode batch -source C:/Users/artem/OneDrive/Рабочий стол/project_1/project_1.sim/sim_1/behav/xsim/xsim.dir/tb_miriscv_top_behav/webtalk/xsim_webtalk.tcl -notrace
+# Log file: C:/Users/artem/OneDrive/Рабочий стол/project_1/project_1.sim/sim_1/behav/xsim/webtalk.log
+# Journal file: C:/Users/artem/OneDrive/Рабочий стол/project_1/project_1.sim/sim_1/behav/xsim\webtalk.jou
+#-----------------------------------------------------------
+source C:/Users/artem/OneDrive/Рабочий -notrace
+couldn't read file "C:/Users/artem/OneDrive/Рабочий": no such file or directory
+INFO: [Common 17-206] Exiting Webtalk at Tue Dec 20 18:07:46 2022...

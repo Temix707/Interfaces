@@ -1,0 +1,14 @@
+# compile verilog/system verilog design source files
+verilog xil_defaultlib  \
+"../../../../../JOB_projects/rtl/AXI_stream_plus/AXI_stream_using_fifos.v" \
+
+sv xil_defaultlib  \
+"../../../../../JOB_projects/rtl/AXI_stream_plus/AXI_stream_plus_optimized.sv" \
+"../../../../../JOB_projects/rtl/AXI_stream_plus/AXI_stream_wrapped_in_valid_ready.sv" \
+"../../../../../JOB_projects/tb/AXI_stream_plus/AXI_stream_plus_tb.sv" \
+
+# compile glbl module
+verilog xil_defaultlib "glbl.v"
+
+# Do not sort compile order
+nosort

@@ -1,0 +1,16 @@
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Vivado_project/JOB_projects/rtl/Sine_Taylor/reg_vld.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module reg_vld
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Vivado_project/JOB_projects/rtl/Sine_Taylor/sine_d2p.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module sine_d2p
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Vivado_project/JOB_projects/rtl/Sine_Taylor/sine_degree.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module sine_degree
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Vivado_project/JOB_projects/rtl/Sine_Taylor/sine_mul.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module sine_mul
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Vivado_project/JOB_projects/rtl/Sine_Taylor/sine_p2d.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module sine_p2d
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Vivado_project/JOB_projects/rtl/Sine_Taylor/sine_taylor.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module sine_taylor
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Vivado_project/JOB_projects/rtl/Sine_Taylor/sine_taylor_shell.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module sine_taylor_shell
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "C:/Vivado_project/JOB_projects/tb/Sine_Taylor/sine_tb.sv" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module sine_tb

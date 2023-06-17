@@ -1,0 +1,16 @@
+# compile verilog/system verilog design source files
+verilog xil_defaultlib  \
+"../../../../../rtl/Sine_Taylor/reg_rst_n.v" \
+"../../../../../rtl/Sine_Taylor/sine_d2p.v" \
+"../../../../../rtl/Sine_Taylor/sine_degree.v" \
+"../../../../../rtl/Sine_Taylor/sine_mul.v" \
+"../../../../../rtl/Sine_Taylor/sine_p2d.v" \
+"../../../../../rtl/Sine_Taylor/sine_taylor.v" \
+"../../../../../rtl/Sine_Taylor/sine_taylor_shell.v" \
+"../../../../../tb/Sine_Taylor/sine_taylor_shell_tb.v" \
+
+# compile glbl module
+verilog xil_defaultlib "glbl.v"
+
+# Do not sort compile order
+nosort

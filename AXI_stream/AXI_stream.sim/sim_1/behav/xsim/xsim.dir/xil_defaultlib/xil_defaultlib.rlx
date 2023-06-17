@@ -1,0 +1,8 @@
+0.6
+2019.2
+Nov  6 2019
+21:57:16
+C:/Vivado_project/JOB_projects/AXI_stream/AXI_stream.sim/sim_1/behav/xsim/glbl.v,1573089660,verilog,,,,glbl,,,,,,,,
+C:/Vivado_project/JOB_projects/rtl/AXI_stream/AXI_stream_optimized.sv,1679330213,systemVerilog,,C:/Vivado_project/JOB_projects/rtl/AXI_stream/AXI_stream_top.sv,,AXI_stream_optimized,,,,,,,,
+C:/Vivado_project/JOB_projects/rtl/AXI_stream/AXI_stream_top.sv,1679330150,systemVerilog,,C:/Vivado_project/JOB_projects/tb/AXI_stream/AXI_stream_tb.sv,,AXI_stream_top,,,,,,,,
+C:/Vivado_project/JOB_projects/tb/AXI_stream/AXI_stream_tb.sv,1679330711,systemVerilog,,,,AXI_stream_tb,,,,,,,,

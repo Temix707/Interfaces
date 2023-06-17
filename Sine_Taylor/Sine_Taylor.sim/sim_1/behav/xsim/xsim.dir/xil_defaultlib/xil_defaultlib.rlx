@@ -1,0 +1,14 @@
+0.6
+2019.2
+Nov  6 2019
+21:57:16
+C:/Vivado_project/JOB_projects/Sine_Taylor/Sine_Taylor.sim/sim_1/behav/xsim/glbl.v,1573089660,verilog,,,,glbl,,,,,,,,
+C:/Vivado_project/JOB_projects/rtl/Sine_Taylor/reg_vld.v,1680515308,verilog,,C:/Vivado_project/JOB_projects/rtl/Sine_Taylor/sine_d2p.v,,reg_vld,,,,,,,,
+C:/Vivado_project/JOB_projects/rtl/Sine_Taylor/sine_d2p.v,1680472386,verilog,,C:/Vivado_project/JOB_projects/rtl/Sine_Taylor/sine_degree.v,,sine_d2p,,,,,,,,
+C:/Vivado_project/JOB_projects/rtl/Sine_Taylor/sine_degree.v,1680472389,verilog,,C:/Vivado_project/JOB_projects/rtl/Sine_Taylor/sine_mul.v,,sine_degree,,,,,,,,
+C:/Vivado_project/JOB_projects/rtl/Sine_Taylor/sine_mul.v,1680472363,verilog,,C:/Vivado_project/JOB_projects/rtl/Sine_Taylor/sine_p2d.v,,sine_mul,,,,,,,,
+C:/Vivado_project/JOB_projects/rtl/Sine_Taylor/sine_p2d.v,1680472385,verilog,,C:/Vivado_project/JOB_projects/rtl/Sine_Taylor/sine_taylor.v,,sine_p2d,,,,,,,,
+C:/Vivado_project/JOB_projects/rtl/Sine_Taylor/sine_taylor.v,1680468255,verilog,,C:/Vivado_project/JOB_projects/rtl/Sine_Taylor/sine_taylor_shell.v,,sine_taylor,,,,,,,,
+C:/Vivado_project/JOB_projects/rtl/Sine_Taylor/sine_taylor_shell.v,1680468325,verilog,,C:/Vivado_project/JOB_projects/tb/Sine_Taylor/sine_taylor_shell_tb.v,,sine_taylor_shell,,,,,,,,
+C:/Vivado_project/JOB_projects/tb/Sine_Taylor/sine_taylor_shell_tb.v,1679907948,verilog,,,,sine_taylor_shell_tb,,,,,,,,
+C:/Vivado_project/JOB_projects/tb/Sine_Taylor/sine_tb.sv,1680515846,systemVerilog,,,,sine_tb,,,,,,,,

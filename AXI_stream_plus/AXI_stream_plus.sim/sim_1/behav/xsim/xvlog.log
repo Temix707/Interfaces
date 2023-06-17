@@ -1,0 +1,10 @@
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Vivado_project/JOB_projects/rtl/AXI_stream_plus/AXI_stream_using_fifos.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module AXI_stream_using_fifos
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "C:/Vivado_project/JOB_projects/rtl/AXI_stream_plus/AXI_stream_plus_optimized.sv" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module AXI_stream_plus_optimized
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "C:/Vivado_project/JOB_projects/rtl/AXI_stream_plus/AXI_stream_wrapped_in_valid_ready.sv" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module AXI_stream_wrapped_in_valid_ready
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "C:/Vivado_project/JOB_projects/tb/AXI_stream_plus/AXI_stream_plus_tb.sv" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module AXI_stream_plus_tb
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Vivado_project/AXI_stream_plus/AXI_stream_plus.sim/sim_1/behav/xsim/glbl.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module glbl
