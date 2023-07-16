@@ -109,4 +109,5 @@ node_modules/
 /AXI_stream_plus
 /I2C_temp_sens
 /Sine_Taylor
+/SPI
 /UART
