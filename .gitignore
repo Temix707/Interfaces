@@ -117,6 +117,8 @@ node_modules/
 
 #AXI_stream/
 #AXI_stream_plus/
+/I2C
+/FIFO
 /FIFO_dds
 /FIFO_dp_ram
 /FIFO_sp_ram
