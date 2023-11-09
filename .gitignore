@@ -5,6 +5,14 @@
 *.vdi
 *.xpr/
 *.xpr
+*.xdc
+*.bd
+*.xml
+*.bxml
+*.xci
+*.ui
+*.asm
+
 
 ## bitstream
 *.bit
@@ -37,6 +45,13 @@ unisims
 *.sa
 *.so
 *.lib
+
+*.code-workspace
+*.rar
+*.zip
+
+## pictures
+*.jpg
 
 ## dirs
 vivado.cache/
@@ -105,8 +120,7 @@ node_modules/
 /FIFO_dds
 /FIFO_dp_ram
 /FIFO_sp_ram
-/AXI_stream
-/AXI_stream_plus
+/AXI4
 /I2C_temp_sens
 /Sine_Taylor
 /SPI
